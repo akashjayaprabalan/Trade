@@ -1,0 +1,17 @@
+tickers:
+  - AAPL
+  - TSLA
+  - NVDA
+analysis_window_minutes: 30
+opening_range_minutes: 5
+poll_interval_seconds: 60
+breakout_threshold_pct: 0.5
+volume_multiplier: 1.5
+momentum_lookback_minutes: 3
+momentum_threshold_pct: 0.3
+reversal_threshold_pct: 0.3
+stop_loss_pct: 0.4
+take_profit_pct: 0.8
+alerts:
+  channels:
+    - log
